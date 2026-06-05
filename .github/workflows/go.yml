@@ -23,9 +23,6 @@ jobs:
 
     - name: Golangci-lint
       uses: golangci/golangci-lint-action@v9.2.1
-      with:
-        is: binary
-      
 
     - name: Build
       run: go build -v ./...
